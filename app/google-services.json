@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "363205530293",
+    "firebase_url": "https://angel-investment-52ba0-default-rtdb.firebaseio.com",
+    "project_id": "angel-investment-52ba0",
+    "storage_bucket": "angel-investment-52ba0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363205530293:android:e5621568c65ebf40c6e4fc",
+        "android_client_info": {
+          "package_name": "com.example.angelinvestment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363205530293-1k8ru3o2e2igt9rfd688m52fq1pi7vl5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6Vk8St7dLbCtOnbJ7l3ngml-LS9KIzMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "363205530293-1k8ru3o2e2igt9rfd688m52fq1pi7vl5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

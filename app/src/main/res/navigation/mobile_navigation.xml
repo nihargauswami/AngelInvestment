@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/discussionFragment">
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_home"-->
+<!--        android:name="com.example.angelinvestment.ui.home.HomeFragment"-->
+<!--        android:label="@string/menu_home"-->
+<!--        tools:layout="@layout/fragment_home" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_gallery"-->
+<!--        android:name="com.example.angelinvestment.ui.gallery.GalleryFragment"-->
+<!--        android:label="@string/menu_gallery"-->
+<!--        tools:layout="@layout/fragment_gallery" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_slideshow"-->
+<!--        android:name="com.example.angelinvestment.ui.slideshow.SlideshowFragment"-->
+<!--        android:label="@string/menu_slideshow"-->
+<!--        tools:layout="@layout/fragment_slideshow" />-->
+
+    <fragment
+        android:id="@+id/agendaFragment"
+        android:name="com.example.angelinvestment.ui.Agenda.AgendaFragment"
+        tools:layout="@layout/fragment_agenda" />
+    <fragment
+        android:id="@+id/discussionFragment"
+        android:name="com.example.angelinvestment.ui.Discussion.DiscussionFragment"
+        tools:layout="@layout/fragment_discussion" />
+    <fragment
+        android:id="@+id/portfolioFragment"
+        android:name="com.example.angelinvestment.ui.Portfolio.PortfolioFragment"
+        tools:layout="@layout/fragment_portfolio" >
+        <action
+            android:id="@+id/action_portfolioFragment_to_pendingDocsActivity"
+            app:destination="@id/pendingDocsActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/startUpFragment"
+        android:name="com.example.angelinvestment.ui.StartUp.StartUpFragment"
+        tools:layout="@layout/fragment_start_up" />
+    <fragment
+        android:id="@+id/allStartupsFragment"
+        android:name="com.example.angelinvestment.ui.StartUp.AllStartupsFragment"
+        tools:layout="@layout/fragment_all_startups" >
+        <action
+            android:id="@+id/action_allStartupsFragment_to_testActivity"
+            app:destination="@id/testActivity" />
+    </fragment>
+
+    <activity
+        android:id="@+id/testActivity"
+        android:name="com.example.angelinvestment.ui.StartUp.TestActivity"
+        android:label="activity_test"
+        tools:layout="@layout/activity_test" />
+    <activity
+        android:id="@+id/pendingDocsActivity"
+        android:name="com.example.angelinvestment.ui.Portfolio.PendingDocsActivity"
+        android:label="activity_pending_docs"
+        tools:layout="@layout/activity_pending_docs" />
+    <activity
+        android:id="@+id/pendingDocsDtailsActivity"
+        android:name="com.example.angelinvestment.ui.Portfolio.PendingDocsDtailsActivity"
+        android:label="activity_pending_docs_dtails"
+        tools:layout="@layout/activity_pending_docs_dtails" />
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.example.angelinvestment.ui.login.LoginActivity"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+</navigation>

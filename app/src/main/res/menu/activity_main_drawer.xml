@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+<!--        <item-->
+<!--            android:id="@+id/nav_home"-->
+<!--            android:icon="@drawable/ic_menu_camera"-->
+<!--            android:title="@string/menu_home" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_gallery"-->
+<!--            android:icon="@drawable/ic_menu_gallery"-->
+<!--            android:title="@string/menu_gallery" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_slideshow"-->
+<!--            android:icon="@drawable/ic_menu_slideshow"-->
+<!--            android:title="@string/menu_slideshow" />-->
+        <item
+            android:id="@+id/Add_Members"
+            android:title="Add Members">
+        </item>
+        <item
+            android:id="@+id/Notification"
+            android:title="Notification">
+        </item>
+        <item
+            android:id="@+id/Leader_Board"
+        android:title="Leader Board">
+    </item>
+        <item
+            android:id="@+id/referandearn"
+        android:title="My Referrals &amp; Earnings">
+    </item>
+        <item
+            android:id="@+id/ipv_member"
+        android:title="Become an IPV Member">
+    </item>
+        <item
+            android:id="@+id/Renew_buy"
+        android:title="Renew / Buy Member">
+    </item>
+        <item
+            android:id="@+id/whatsapp_bot"
+        android:title="Whatsapp Bot">
+    </item>
+        <item
+        android:id="@+id/change_password"
+        android:title="Change Password">
+    </item>
+        <item
+            android:id="@+id/contact_rm"
+        android:title="Contact Your RM">
+    </item>
+        <item
+            android:id="@+id/privacy"
+        android:title="Privacy Policy">
+    </item>
+        <item
+            android:id="@+id/terms_use"
+        android:title="Terms of use">
+    </item>
+        <item
+            android:id="@+id/Feedback"
+        android:title="Feedback">
+    </item>
+        <item
+            android:id="@+id/FAQs"
+        android:title="FAQs">
+    </item>
+        <item
+            android:id="@+id/loginActivity"
+            android:title="Log Out">
+        </item>
+    </group>
+</menu>

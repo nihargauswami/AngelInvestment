@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.signup.SignUpActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <!--    <TextView-->
+        <!--        android:id="@+id/sing_up"-->
+        <!--        android:layout_width="109dp"-->
+        <!--        android:layout_height="36dp"-->
+        <!--        android:layout_alignParentLeft="true"-->
+        <!--        android:layout_marginLeft="160dp"-->
+        <!--        android:layout_alignParentTop="true"-->
+        <!--        android:layout_marginTop="38dp"-->
+        <!--        android:text="@string/sing_up"-->
+        <!--        android:textAppearance="@style/sing_up"-->
+        <!--        android:gravity="center_horizontal|top"-->
+        <!--        />-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/rectangle_1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_alignParentTop="true"
+                android:hint="@string/name"
+                android:textAppearance="@style/first_name"
+                android:padding="20px"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/rectangle_4"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/rectangle_2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_alignParentTop="true"
+                android:hint="@string/email"
+                android:textAppearance="@style/email"
+                android:layout_marginTop="140dp"
+                android:padding="20px"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/rectangle_5"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:passwordToggleEnabled="true">
+            <EditText
+                android:id="@+id/rectangle_3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_alignParentTop="true"
+                android:hint="@string/password"
+                android:textAppearance="@style/password"
+                android:layout_marginTop="230dp"
+                android:background="@drawable/rectangle_5"
+                android:inputType="textPassword"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:passwordToggleEnabled="true">
+            <EditText
+                android:id="@+id/rectangle_4"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentTop="true"
+                android:hint="@string/confirm_pas"
+                android:textAppearance="@style/confirm_pas"
+                android:layout_marginTop="320dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/rectangle_5"
+                android:inputType="textPassword"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/rectangle_5"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="410dp"
+                android:background="@drawable/rectangle_5"
+                android:padding="20px"
+                android:hint="@string/mobile_numb"
+                android:textAppearance="@style/mobile_numb"
+                android:ems="10"
+                android:inputType="phone"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <EditText
+                android:id="@+id/rectangle_6"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_alignParentTop="true"
+                android:hint="@string/company_nam"
+                android:padding="20px"
+                android:textAppearance="@style/company_nam"
+                android:layout_marginTop="500dp"
+                android:background="@drawable/rectangle_5"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/rectangle_7"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="590dp"
+                android:hint="@string/current_des"
+                android:padding="20px"
+                android:textAppearance="@style/current_des"
+                android:background="@drawable/rectangle_5"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/rectangle_8"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="680dp"
+                android:hint="@string/postal_addr"
+                android:textAppearance="@style/postal_addr"
+                android:padding="20px"
+                android:background="@drawable/rectangle_5"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/rectangle_9"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_alignParentTop="true"
+                android:hint="@string/city"
+                android:textAppearance="@style/city"
+                android:padding="20px"
+                android:layout_marginTop="770dp"
+                android:background="@drawable/rectangle_5"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/pin_code"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="860dp"
+                android:layout_marginRight="15dp"
+                android:gravity="top"
+                android:hint="@string/pin_code"
+                android:inputType="number"
+                android:textAppearance="@style/pin_code" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="175dp"
+                android:layout_marginTop="940dp"
+                android:text="@string/have_a_account_please_login" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <Button
+            android:id="@+id/Login_From_SignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:onClick="validateEmail"
+            android:textColor="@color/black"
+            android:layout_marginTop="980dp"
+            android:layout_marginLeft="160dp"
+            tools:ignore="OnClick" />
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">AngelInvestment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_portfolio">Portfolio</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="Sign_up">Sign up</string>
+    <string name="login">login</string>
+    <string name="mobile_numb">Mobile Number</string>
+    <string name="password">Password</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="don_t_have_">Don\'t have Account ? Sing up</string>
+    <string name="sing_up">Sing up</string>
+    <string name="pin_code">PIN Code</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="confirm_pas">Confirm Password</string>
+    <string name="company_nam">Company Name</string>
+    <string name="current_des">Current Designation</string>
+    <string name="postal_addr">Postal Address</string>
+    <string name="city">City</string>
+    <string name="forgot_pass">Forgot Password?</string>
+    <string name="reset_passw">Reset Password</string>
+    <string name="new_passwor">New Password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="mercedes">MERCEDES</string>
+    <string name="feb_2023">01 Feb 2023</string>
+    <string name="pm_to_01_30">12 : 30 Pm to 01 : 30PM</string>
+    <string name="founders_ca">Founders Call</string>
+    <string name="register">Register</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="have_a_account_please_login">Have a Account? Please Login</string>
+    <string name="title_activity_pending_docs">PendingDocsActivity</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Discussion"
+        android:id="@+id/discussionFragment"
+        android:icon="@drawable/discussion"/>
+    <item android:title="Agenda"
+        android:id="@+id/agendaFragment"
+        android:icon="@drawable/agenda"/>
+    <item android:title="Start_Up"
+        android:id="@+id/startUpFragment"
+        android:icon="@drawable/start_up"/>
+    <item android:title="Portfolio"
+        android:id="@+id/portfolioFragment"
+        android:icon="@drawable/portfolio"/>
+</menu>

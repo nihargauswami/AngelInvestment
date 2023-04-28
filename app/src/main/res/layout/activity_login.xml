@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.login.LoginActivity"
+    android:padding="20px">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/rectangle_4"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="140dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/rectangle_4"
+                android:hint="@string/email"
+                android:padding="20px"
+                android:inputType="textEmailAddress"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:passwordToggleEnabled="true">
+            <EditText
+                android:id="@+id/rectangle_5"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="230dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/rectangle_4"
+                android:filterTouchesWhenObscured="true"
+                android:hint="@string/password"
+                android:padding="20px"
+                android:inputType="textPassword" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <TextView
+            android:id="@+id/lorem_ipsum"
+            android:layout_width="340dp"
+            android:layout_height="16dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="300dp"
+            android:gravity="top"
+            android:text="@string/lorem_ipsum"
+            android:textAppearance="@style/lorem_ipsum" />
+
+        <Button
+            android:id="@+id/Login_home"
+            android:layout_width="154dp"
+            android:layout_height="54dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="128dp"
+            android:layout_marginTop="384dp"
+            android:background="@drawable/frame_1"
+            android:gravity="center_horizontal|top"
+            android:onClick="validateEmail"
+            android:text="@string/login"
+            android:textAppearance="@style/login"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/don_t_have_"
+            android:layout_width="208dp"
+            android:layout_height="18dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="670dp"
+            android:gravity="top"
+            android:text="@string/don_t_have_"
+            android:textAppearance="@style/don_t_have_" />
+
+        <TextView
+            android:id="@+id/forgot_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password?"
+            android:layout_marginTop="350dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="250dp"
+            />
+    </RelativeLayout>
+
+</ScrollView>

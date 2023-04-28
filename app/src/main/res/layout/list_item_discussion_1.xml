@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:ignore="MissingConstraints"
+    tools:layout_editor_absoluteX="8dp"
+    android:layout_gravity="center_horizontal">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/tvImageView"
+            android:layout_width="99dp"
+            android:layout_height="128dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:elevation="5dp"
+            android:src="@drawable/photo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/tvTextView_foinderCall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/frame_discussion_foundercall"
+            android:gravity="center"
+            android:text="@string/founders_ca"
+            android:textAppearance="@style/founders_ca"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/tvImageView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvTextView_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="8dp"
+            android:gravity="top"
+            android:text="@string/mercedes"
+            android:textAppearance="@style/mercedes"
+            app:layout_constraintStart_toEndOf="@+id/tvImageView"
+            app:layout_constraintTop_toBottomOf="@+id/tvTextView_foinderCall" />
+
+
+        <TextView
+            android:id="@+id/tvTextDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="9dp"
+            android:gravity="top"
+            android:text="@string/feb_2023"
+            android:textAppearance="@style/feb_2023"
+            app:layout_constraintStart_toEndOf="@+id/view3"
+            app:layout_constraintTop_toBottomOf="@+id/tvTextView_name" />
+
+
+        <TextView
+            android:id="@+id/tvTextTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:gravity="top"
+            android:text="@string/pm_to_01_30"
+            android:textAppearance="@style/pm_to_01_30"
+            app:layout_constraintStart_toEndOf="@+id/view4"
+            app:layout_constraintTop_toBottomOf="@+id/tvTextDate" />
+
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/calendar_1"
+            app:layout_constraintStart_toEndOf="@+id/tvImageView"
+            app:layout_constraintTop_toBottomOf="@+id/tvTextView_name" />
+
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/baseline_access_time_24"
+            app:layout_constraintStart_toEndOf="@+id/tvImageView"
+            app:layout_constraintTop_toBottomOf="@+id/view3" />
+
+
+        <ImageButton
+            android:id="@+id/ivForward"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="219dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/forward"
+            app:layout_constraintStart_toEndOf="@+id/tvImageView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/tvTextShare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="213dp"
+            android:layout_marginTop="5dp"
+            android:gravity="top"
+            android:text="Share"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            app:layout_constraintStart_toEndOf="@+id/tvImageView"
+            app:layout_constraintTop_toBottomOf="@+id/ivForward" />
+
+        <TextView
+            android:id="@+id/tvRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="189dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/discussion_register"
+            android:gravity="center"
+            android:text="Register"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            app:layout_constraintStart_toEndOf="@+id/tvImageView"
+            app:layout_constraintTop_toBottomOf="@+id/tvTextShare" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
+
+
